@@ -23,6 +23,7 @@
   font-family: Comic Sans MS;
   font-size: 20pt; 
   padding: 10px 24px;
+  border-radius: 8px;
   margin: 0;
   position: absolute;
   left: 50%;
@@ -35,6 +36,7 @@
   font-family: Comic Sans MS;
   display: none;
   font-size: 15pt; 
+  border-radius: 8px;
   width: auto;
   height: 50px;
   padding: 10px 24px;
@@ -65,11 +67,9 @@
 #div1{
   height: 100px;
   width: auto;
-  background-color: powderblue;
 }
 
 #div2{
   height: 100px;
   width: auto;
-  background-color: gray;
 }
