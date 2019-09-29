@@ -7,22 +7,26 @@
   background-color: #F04E1D;
   opacity: 0.8;
   font-family: Comic Sans MS;
+  display: none;
 }
 
 .games{
   background-color: #55F01D;
   opacity: 0.8;
   font-family: Comic Sans Ms;
+  display: none;
 }
 
 .info{
   background-color: #1DBFF0;
   opacity: 0.8;
   font-family: Comic Sans Ms;
+  display: none;
 }
 
 .movies{
   background-color: #F2F60D;
   opacity: 0.8;
   font-family: Comic Sans Ms;
+  display: none;
 }

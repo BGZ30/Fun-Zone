@@ -1,28 +1,30 @@
 <html>
 
+ <body> 
 <head>
 <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
   <title>Fun Zone</title>
-  
+
   <h1 id="welcome">Welcome to Fun Zone!</h1>
   <p id="enjoy">Enjoy and have fun</p>
   
-<input type="button" id="strBtn" value="Start a new fun session">
-<input type="button" id="gamesBtn" class="mainMenu" value="Games">
-<input type="button" id="tellBtn" class="mainMenu" value="Tell Me">
-<input type="button" id="movieBtn" class="mainMenu" value="Recommend me a Movie">
-<input type="button" id="colorBtn" class="games" value="Guess the Color">
-<input type="button" id="numBtn" class="games" value="Guess the secret number">
-<input type="button" id="whoBtn" class="games" value="Guess Who">
-<input type="button" id="provBtn" class="games" value="Complete the Proverb">
-<input type="button" id="jokeBtn" class="info" value="Tell me a Joke">
-<input type="button" id="storyBtn" class="info" value="Tell me a Story">
-<input type="button" id="comBtn" class="movies" value="Comedy">
-<input type="button" id="draBtn" class="movies" value="Drama">
-<input type="button" id="actBtn" class="movies" value="Action">
-<input type="button" id="aniBtn" class="movies" value="Animation">
-<input type="button" id="terBtn" class="movies" value="Terror">
+<input type="button" id="strBtn" value="Start a new fun session"     onClick="showMainMenu('.mainMenu')">
+<input type="button" id="gamesBtn" class="mainMenu" value="Games"    onClick="showMainMenu('.games')">
+<input type="button" id="tellBtn"  class="mainMenu" value="Tell Me"  onClick="showMainMenu('.info')">
+<input type="button" id="movieBtn" class="mainMenu" value="Recommend me a Movie"    onClick="showMainMenu('.movies')">
+<input type="button" id="colorBtn" class="games"    value="Guess the Color"         onClick="">
+<input type="button" id="numBtn"   class="games"    value="Guess the secret number" onClick="">
+<input type="button" id="whoBtn"   class="games"    value="Guess Who"               onClick="">
+<input type="button" id="provBtn"  class="games"    value="Complete the Proverb"    onClick="">
+<input type="button" id="jokeBtn"  class="info"     value="Tell me a Joke"          onClick="">
+<input type="button" id="storyBtn" class="info"     value="Tell me a Story" onClick="">
+<input type="button" id="comBtn"   class="movies" 	value="Comedy"          onClick="">
+<input type="button" id="draBtn"   class="movies" 	value="Drama"      onClick="">
+<input type="button" id="actBtn"   class="movies" 	value="Action"     onClick="">
+<input type="button" id="aniBtn"   class="movies" 	value="Animation"  onClick="">
+<input type="button" id="terBtn"   class="movies" 	value="Terror"     onClick="">
 
-
+<script type="text/javascript" src="jscript.js"></script>
+</body>
 </html>
