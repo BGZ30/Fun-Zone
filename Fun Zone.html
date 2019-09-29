@@ -7,12 +7,18 @@
   <title>Fun Zone</title>
 
   <h1 id="welcome">Welcome to Fun Zone!</h1>
-  <p id="enjoy">Enjoy and have fun</p>
+  <p id="enjoy">Enjoy and have fun :)</p>
   
-<input type="button" id="strBtn" value="Start a new fun session"     onClick="showMainMenu('.mainMenu')">
+<div id="div1">
+  <input type="button" id="strBtn" value="Start a new fun session"     onClick="showMainMenu('.mainMenu','inline-block')">
+</div>
+ 
+<div id="div2">
 <input type="button" id="gamesBtn" class="mainMenu" value="Games"    onClick="showMainMenu('.games')">
 <input type="button" id="tellBtn"  class="mainMenu" value="Tell Me"  onClick="showMainMenu('.info')">
 <input type="button" id="movieBtn" class="mainMenu" value="Recommend me a Movie"    onClick="showMainMenu('.movies')">
+</div> 
+  
 <input type="button" id="colorBtn" class="games"    value="Guess the Color"         onClick="">
 <input type="button" id="numBtn"   class="games"    value="Guess the secret number" onClick="">
 <input type="button" id="whoBtn"   class="games"    value="Guess Who"               onClick="">
