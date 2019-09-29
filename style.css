@@ -4,18 +4,41 @@
   color: #F0226A;
   -webkit-text-stroke-width: 4px;
   -webkit-text-stroke-color: black;
+  text-align: center;
+}
+
+#enjoy{
+  font-family: Comic Sans MS;
+  font-size: 50pt;
+  color: black;
+  -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: black;
+  text-align: center;
 }
 
 #strBtn{
   background-color: #AB58A9;
+  border: 3px solid black;
   opacity: 0.8;
-  font-family: Comic Sans MS;}
+  font-family: Comic Sans MS;
+  font-size: 20pt; 
+  padding: 10px 24px;
+  margin: 0;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
 
 .mainMenu{
   background-color: #F04E1D;
   opacity: 0.8;
   font-family: Comic Sans MS;
   display: none;
+  font-size: 15pt; 
+  width: auto;
+  height: 50px;
+  padding: 10px 24px;
+
 }
 
 .games{
@@ -37,4 +60,16 @@
   opacity: 0.8;
   font-family: Comic Sans Ms;
   display: none;
+}
+
+#div1{
+  height: 100px;
+  width: auto;
+  background-color: powderblue;
+}
+
+#div2{
+  height: 100px;
+  width: auto;
+  background-color: gray;
 }
