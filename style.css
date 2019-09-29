@@ -1,0 +1,28 @@
+#strBtn{
+  background-color: #AB58A9;
+  opacity: 0.8;
+  font-family: Comic Sans MS;}
+
+.mainMenu{
+  background-color: #F04E1D;
+  opacity: 0.8;
+  font-family: Comic Sans MS;
+}
+
+.games{
+  background-color: #55F01D;
+  opacity: 0.8;
+  font-family: Comic Sans Ms;
+}
+
+.info{
+  background-color: #1DBFF0;
+  opacity: 0.8;
+  font-family: Comic Sans Ms;
+}
+
+.movies{
+  background-color: #F2F60D;
+  opacity: 0.8;
+  font-family: Comic Sans Ms;
+}
