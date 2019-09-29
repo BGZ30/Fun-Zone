@@ -1,3 +1,11 @@
+#welcome{
+  font-family: Comic Sans MS;
+  font-size: 50pt;
+  color: #F0226A;
+  -webkit-text-stroke-width: 4px;
+  -webkit-text-stroke-color: black;
+}
+
 #strBtn{
   background-color: #AB58A9;
   opacity: 0.8;
